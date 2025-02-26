@@ -4,7 +4,7 @@
 **`  function getLocation(season) `**
 
 
-####  Season+round=obstacle list  Takes the season number and the round and returns the obstacles used during that round of that season
+####  Takes the season number and the round during that season and returns the obstacles used during that round of that season
 ####  Season {number} - the desired season of the show
 ####  Round {string} - the desired round/stage of the season (ex: Qualifying Round)
 ####  return {list} - names of obstalces used in that round of the specific season
