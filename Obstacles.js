@@ -49,6 +49,7 @@ return {list} - names of locations for where the show took place
     }
     return locationList
  }
+  
 // console.log(getLocation(1)) 
 // console.log(getLocation(2))
 // console.log(getLocation(3))
@@ -76,6 +77,7 @@ function getObstacles(season,round){
     }
     return obstacleList
 }
+   
 //console.log(getObstacles(1,"qualifyin"))
 /*
 Takes a season number and the round and returns the number of obstacles in that round
@@ -92,6 +94,7 @@ function getNumberRounds(season,round){
 }
 return numberObstacles.length
 }
+ 
 //console.log(getNumberRounds(1, "Qualifying"))
 
 
@@ -106,16 +109,16 @@ function getSeason(location, obstacle)
 function getSeason(location, obstacle){
     var seasonList=[]
     for (var i=0; i<seasons.length;i++){
-if (locations[i].toLowerCase().includes(location.toLowerCase()) && obstacles[i].toLowerCase().includes(obstacle.toLowerCase()) && !(seasonList.includes(seasons[i]))){
-    seasonList.push(seasons[i])
+if (locations[i].toLowerCase().includes(location.toLowerCase()) && obstacles[i].toLowerCase().includes(obstacle.toLowerCase()) && !(seasonList.includes(parseInt(seasons[i])))){
+    seasonList.push(parseInt(seasons[i]))
 }
     }
     if(seasonList.length==0){
         seasonList= "No results"
     }
 return seasonList
-}
-//console.log(getSeason("venIc", "km")) 
+}  
+//console.log(getSeason("venIc", "km"))  
 
 /*
 Takes the order and location and returns the obstacle that fills those requirements
@@ -136,4 +139,5 @@ if(obstacleList.length==0){
 
 return obstacleList
 }
-//console.log(getObstacleName(3, "vn")) 
+ 
+console.log(getObstacleName(9.0, "g"))   
