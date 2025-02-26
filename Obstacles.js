@@ -118,13 +118,10 @@ return seasonList
 //console.log(getSeason("venIc", "km")) 
 
 /*
-place in order+location=obstacle
-takes the order and location
-makes a list variable to hold the obstacles
-allows for minor misspelling and capitilization errors
-pushes the results to the list
-makes an error message if the length of the list is 0
-returns the results
+Takes the order and location and returns the obstacle that fills those requirements
+order{number}- the desired place in the order of obstacles in a round
+location{string}- the desired location of where it took place
+returns{list}- returns the obstacle that fills the requirements
 */
 function getObstacleName(order, location){
     var  obstacleList=[]
