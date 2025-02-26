@@ -16,17 +16,13 @@
 #### return{list}- A number of obstacles
 **`function getNumberRounds(season,round)`**
 
-# FOURTH FUNCTION
 
-####  Location + obstacle=season
-####  Takes the location and obstacle name
-####  Makes a list variable to hold the seasons
-####  Allows for minor misspelling and capitilization errors
-####  Pushes the results to the list
-####  Makes an error message if the length of the list is 0
-####  Returns the results
+Takes the Location and Obstalce and returns the number of obstacles used in that place during that season
+Location {string} - The desired Location of where it took place
+Obstacle {string} - The desired used during in that place
+returns {list} - List of Seasons where those obstalces are used in the inputed locations
+**`function getSeason(location, obstacle)`**
 
-# FIFTH FUNCTION
 
 ####  Takes the order and location and returns the obstacle that fills those requirements
 ####  order{number}- the desired place in the order of obstacles in a round
