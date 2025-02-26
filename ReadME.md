@@ -4,15 +4,13 @@
 ####  Variable and the column number that you want information
 ####  And turn these into a variable or something else
 
-# FIRST FUNCTION
 
-####  Season=locations
-####  Takes the season as the input
-####  Looks through list of location in the seasons
-####  And adds them to the list if they aren't already on the list
-####  If the season doesn't exist it returns "No results"
 
-# SECOND FUNCTION
+####  Takes a season number and returns a list of location for where the show took place
+####  season {number} - the desired season of the show
+####  return {list} - names of locations for where the show took place
+**`  function getCol(matrix, col) `**
+
 
 ####  Season+round=obstacle list
 ####  Takes the season and the type of round(ex. Qualifing, Finals-Stage 1) as an input
