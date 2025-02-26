@@ -28,10 +28,8 @@
 
 # FIFTH FUNCTION
 
-####  Place in order+location=obstacle
-####  Takes the order and location
-####  Makes a list variable to hold the obstacles
-####  Allows for minor misspelling and capitilization errors
-####  Pushes the results to the list
-####  Makes an error message if the length of the list is 0
-####  Returns the results
+####  Takes the order and location and returns the obstacle that fills those requirements
+####  order{number}- the desired place in the order of obstacles in a round
+####  location{string}- the desired location of where it took place
+####  returns{list}- returns the obstacle that fills the requirements
+**`function getObstacleName(order, location)`**
