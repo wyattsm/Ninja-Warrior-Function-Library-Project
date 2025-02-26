@@ -97,13 +97,11 @@ return numberObstacles.length
 
 //location+obstacle=season
 /*
-location+obstacle=season
-takes the location and obstacle name
-makes a list variable to hold the seasons
-allows for minor misspelling and capitilization errors
-pushes the results to the list
-makes an error message if the length of the list is 0
-returns the results
+Takes the Location and Obstalce and returns the number of obstacles used in that place during that season
+Location {string} - The desired Location of where it took place
+Obstacle {string} - The desired used during in that place
+returns {list} - List of Seasons where those obstalces are used in the inputed locations
+function getSeason(location, obstacle)
 */
 function getSeason(location, obstacle){
     var seasonList=[]
