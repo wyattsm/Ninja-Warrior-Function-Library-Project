@@ -1,11 +1,3 @@
-# GET COLUMN FUNCTION
-
-####  This function allows to enter the parameters of a url that is stored in a 
-####  Variable and the column number that you want information
-####  And turn these into a variable or something else
-
-
-
 ####  Takes a season number and returns a list of location for where the show took place
 ####  season {number} - the desired season of the show
 ####  return {list} - names of locations for where the show took place
