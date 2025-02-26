@@ -32,11 +32,9 @@ function getColumn(url, columnNumber){
  var orders=getColumn(url,5)
 
 /*
-sesaon=locations
-takes the season as the input
-looks through list of location in the seasons
-and adds them to the list if they aren't already on the list
-if the season doesn't exist it returns "No results"
+Takes a season number and returns a list of location for where the show took place
+season {number} - the desired season of the show
+return {list} - names of locations for where the show took place
 */
  function getLocation(season){
     var locationList=[]
