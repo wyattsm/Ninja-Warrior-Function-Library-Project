@@ -17,10 +17,10 @@
 **`function getNumberRounds(season,round)`**
 
 
-Takes the Location and Obstalce and returns the number of obstacles used in that place during that season
-Location {string} - The desired Location of where it took place
-Obstacle {string} - The desired used during in that place
-returns {list} - List of Seasons where those obstalces are used in the inputed locations
+#### Takes the Location and Obstalce and returns the number of obstacles used in that place during that season
+#### Location {string} - The desired Location of where it took place
+#### Obstacle {string} - The desired used during in that place
+#### returns {list} - List of Seasons where those obstalces are used in the inputed locations
 **`function getSeason(location, obstacle)`**
 
 
