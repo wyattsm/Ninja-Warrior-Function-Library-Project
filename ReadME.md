@@ -10,11 +10,11 @@
 ####  return {list} - names of obstalces used in that round of the specific season
 **`function getObstacles(season,round)`**
 
-####  Season+round=number of obstacles in a round
-####  Takes the season and the type of round(ex. Qualifing, Finals-Stage 1) as an input
-####  And finds the obstacles used in that round
-####  Adds those to the list
-####  Finds the list length and returns
+#### Takes a season number and the round and returns the number of obstacles in that round
+#### season{number}- the desired season of the show
+#### round{string}- the desired round/stage(ex. Qualifying) of the season
+#### return{list}- A number of obstacles
+**`function getNumberRounds(season,round)`**
 
 # FOURTH FUNCTION
 
