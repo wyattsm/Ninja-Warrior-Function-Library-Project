@@ -79,11 +79,10 @@ function getObstacles(season,round){
 }
 //console.log(getObstacles(1,"qualifyin"))
 /*
-season+round=number of obstacles in a round
-takes the season and the type of round(ex. Qualifing, Finals-Stage 1) as an input
-and finds the obstacles used in that round
-adds those to the list
-finds the list length and returns
+Takes a season number and the round and returns the number of obstacles in that round
+season{number}- the desired season of the show
+round{string}- the desired round/stage(ex. Qualifying) of the season
+return{list}- A number of obstacles
 */
 function getNumberRounds(season,round){
     var numberObstacles=[]
