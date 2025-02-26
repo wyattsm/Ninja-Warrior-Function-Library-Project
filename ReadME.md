@@ -9,16 +9,14 @@
 ####  Takes a season number and returns a list of location for where the show took place
 ####  season {number} - the desired season of the show
 ####  return {list} - names of locations for where the show took place
-**`  function getCol(matrix, col) `**
+**`  function getLocation(season) `**
 
 
-####  Season+round=obstacle list
-####  Takes the season and the type of round(ex. Qualifing, Finals-Stage 1) as an input
-####  And finds the obstacles used in that round
-####  And adds to the list
-####  If the round is minorly mispelled, or has wrong capitalization it still works
-
-# THIRD FUNCTION
+####  Season+round=obstacle list  Takes the season number and the round and returns the obstacles used during that round of that season
+####  Season {number} - the desired season of the show
+####  Round {string} - the desired round/stage of the season (ex: Qualifying Round)
+####  return {list} - names of obstalces used in that round of the specific season
+**`function getObstacles(season,round)`**
 
 ####  Season+round=number of obstacles in a round
 ####  Takes the season and the type of round(ex. Qualifing, Finals-Stage 1) as an input
